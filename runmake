@@ -1,0 +1,5 @@
+:
+
+make -C /lib/modules/3.4.108+/build M=/h/u036/mayer/src2/pps2gpio modules
+
+
