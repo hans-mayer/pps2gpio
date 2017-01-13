@@ -4,7 +4,11 @@
 With the ppsgpio module one can create a 1PPS ( one pulse per second ) interrupt in the kernel on a specific PIN of the GPIO. It's not possible to load the original module twice. This project is a clone but with a different name. Therefore a second PIN can be used for interrupts. 
 
 
-This is the difference between the original source code and the modification 
+Here you can find the difference between the original source code and the modification  
+The the original source code you can find at https://github.com/infinet/bananapi
+Probably first you will need the original as first 1PPS module. 
+Only if you need a second you will take this one. 
+
 
 <pre>
 2c2

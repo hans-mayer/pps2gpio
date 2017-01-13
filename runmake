@@ -1,5 +1,10 @@
 :
 
-make -C /lib/modules/3.4.108+/build M=/h/u036/mayer/src2/pps2gpio modules
+# Fri Jan 13 23:11:33 CET 2017 - mayer 
+# this is a very rudimentary make file 
+# it must be adapted for use 
 
+make -C /lib/modules/3.4.108+/build M=`pwd` modules
+
+# to clean :  rm *.o 
 
