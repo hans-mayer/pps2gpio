@@ -9,6 +9,8 @@ The the original source code you can find at https://github.com/infinet/bananapi
 Probably first you will need the original as first 1PPS module. 
 Only if you need a second you will take this one. 
 
+For questions my e-mail:  pps2gpio@ma.yer.at
+
 
 <pre>
 2c2
