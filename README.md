@@ -1,13 +1,13 @@
 
-# pps2gpio 
+# pps2gpio
 
-With the ppsgpio module one can create a 1PPS ( one pulse per second ) interrupt in the kernel on a specific PIN of the GPIO. It's not possible to load the original module twice. This project is a clone but with a different name. Therefore a second PIN can be used for interrupts. 
+With the ppsgpio module one can create a 1PPS ( one pulse per second ) interrupt in the kernel on a specific PIN of the GPIO. It's not possible to load the original module twice. This project is a clone but with a different name. Therefore a second PIN can be used for interrupts.
 
 
 Here you can find the difference between the original source code and the modification  
 The the original source code you can find at https://github.com/infinet/bananapi
-Probably first you will need the original as first 1PPS module. 
-Only if you need a second you will take this one. 
+Probably first you will need the original as first 1PPS module.
+Only if you need a second you will take this one.
 
 For questions my e-mail:  pps2gpio@ma.yer.at
 
@@ -60,3 +60,12 @@ For questions my e-mail:  pps2gpio@ma.yer.at
 ---
 > MODULE_VERSION("1.0.1t");
 </pre>
+
+Below you can see a BananaPi M1 with two boards on it. The bottom PCB is the M1 board. The GPIO connector has 2 times 13 pins. Sitting on this a GPS module is connected. This board has 26 vias parallel to the connector. I soldered a 2x13 pin row. On this the self designed PCB is plugged in.
+
+![BananaPi M1 with 2 boards on top](/M1with2boards.png)
+
+See also:
+
+* <a href="http://blog.mayer.tv/2017/06/11/stratum-0-server.html" target="_blank">Stratum-1 NTP Server with rubidium source</a>
+* <a href="http://blog.mayer.tv/2016/01/08/bananapi-gpio-wiringbp.html" target="_blank">Banana Pi - GPIO - WiringBP</a>
